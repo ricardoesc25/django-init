@@ -16,14 +16,14 @@ spec:
   schema:
     required:
       - component_id
-      - repo_name
+      - github_repository
       - description
     properties:
       component_id:
         title: Name
         type: string
         description: Unique name of the component
-      repo_name:
+      github_repository:
         title: Repository
         type: string
         description: Repo name of the component
